@@ -1,0 +1,154 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../res/img/bg.png");
+    font: bold 14px Arial;
+    color: #353535;
+    /*text-align: center;*/
+}
+
+.wrap_content{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+#logo a img{
+    width:202px;
+    height:136px;
+    float: left;
+    margin-left: -1px;
+}
+
+
+.menu{
+    width: 960px;
+    height: 70px;
+    background: url(../res/img/menu_bg.png) no-repeat;
+}
+.menu ul{
+    padding-: 40px;
+    padding-top: 23px;
+    overflow: hidden;
+}
+
+.menu ul li :hover{
+    text-decoration: underline;
+}
+
+.menu ul li{
+    margin-right: 70px;
+    float: left;
+    list-style-type: none;
+    font: bold 18px Arial;
+    color: #ffffff;
+}
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu #phone{
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul li span{
+    color: #ff1600;
+}
+
+
+.main h1 {
+
+    margin-top: 82px;
+    text-align: center;
+    /*margin-left: 218px;*/
+    font-size: 55px;
+    font-weight: bold;
+
+    /*font: bold 55px Arial;*/
+}
+
+.main h2 {
+    text-align: center;
+    margin-top: 27px;
+    /*margin-left: 248px;*/
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main .divider{
+    text-align: center;
+}
+
+/*.main #divider {*/
+    /*background: url(../res/img/divider.png) no-repeat;*/
+/*}*/
+
+#main_long_text{
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1.5;
+    width: 602px;
+}
+
+#title_for_list{
+    margin-top: 42px;
+    text-size:30px;
+    color: #a03131;
+}
+
+#list{
+
+    width: 390px;
+    margin: 0 auto 25px;
+
+}
+#list li{
+    height: 44px;
+    padding-left: 60px;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+a{
+
+    list-style-type: none;
+    color: #353535;
+    text-decoration: none;
+    text-align: left;
+    font: bold 18px Arial;
+
+}
+#facebook{
+    background: url("../res/img/list/f.png") no-repeat;
+}
+
+#twitter{
+    background: url("../res/img/list/t.png") no-repeat;
+}
+#rss{
+    background: url("../res/img/list/rss.png") no-repeat;
+}
+#dribbble{
+    background: url("../res/img/list/dr.png") no-repeat;
+}
+#linkedin{
+    background: url("../res/img/list/lk.png") no-repeat;
+}
+
+.footer {
+    margin:33px auto;
+    text-align: center;
+}
+
+.footer p span{
+    color: #a03131;
+}
+.footer p a{
+    font: bold 14px Arial;
+}
